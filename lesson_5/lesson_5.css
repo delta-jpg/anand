@@ -1,0 +1,35 @@
+.box1 {
+  width: 50%;
+  height: 80vh;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.box2 {
+  width: 50%;
+  height: 80vh;
+  background-color: lightsalmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  background-color: silver;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.innerbox1 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 10px;
+}
+.innerbox2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 10px;
+}

@@ -188,8 +188,12 @@ hr {
   margin-left: 10px;
 }
 .button {
-  width: 10%;
-  height: 70%;
+  width: 7.5%;
+  height: 100%;
   background-color: #f2f2f2;
   border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 0px;
 }

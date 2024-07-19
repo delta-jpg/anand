@@ -15,7 +15,6 @@
 }
 
 .right {
-  background-color: aqua;
   width: 87.5%;
   height: 100%;
 }
@@ -36,17 +35,17 @@
   align-items: center;
 }
 .two {
-  width: 40%;
+  width: 35%;
   height: 100%;
-  background-color: darkcyan;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .three {
   width: 10%;
   height: 100%;
-  background-color: darkcyan;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .filter {
@@ -176,9 +175,10 @@ hr {
   color: #2269ca;
 }
 .search-bar {
-  width: 85%;
+  width: 95%;
   height: 70%;
   background-color: #ffffff;
+  border: 1px solid #e2e2e2;
   border-radius: 50px;
   display: flex;
   justify-content: space-between;
@@ -191,9 +191,47 @@ hr {
   width: 7.5%;
   height: 100%;
   background-color: #f2f2f2;
+  border: 1px solid #e2e2e2;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.microphone {
+  width: 25.525px;
+  height: 25.525px;
+  background-color: #f2f2f2;
+  border: 1px solid #e2e2e2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-dot {
+  margin-left: 20px;
+  width: 25.525px;
+  height: 25.525px;
+  background-color: #f2f2f2;
+  border: 1px solid #e2e2e2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.human {
+  margin-right: 10px;
+  width: 25.525px;
+  height: 25.525px;
+  display: flex;
+}
+.sign-in {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70%;
+  border: 1px solid;
+  border-radius: 50px;
 }

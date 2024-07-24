@@ -63,39 +63,37 @@
 .bichleg {
   width: 30%;
   height: 45%;
-  background-color: grey;
+  border-radius: 15px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  background-color: #e2e2e2;
 }
 .zurag {
+  contain: content;
   width: 100%;
-  height: 100%;
-  background-color: red;
+  height: 80%;
 }
 .description {
   width: 100%;
-  height: 30%;
-  background-color: orangered;
+  height: 20%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: row;
 }
-.description p1 {
-  background-color: blue;
+.channel {
   width: 20%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.description p2 {
-  background-color: whitesmoke;
-  width: 77.5%;
+.descriptions {
+  width: 80%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.name {
+  width: 100%;
+  height: 50%;
+}
+.date {
+  width: 100%;
+  height: 50%;
 }
 .menu {
   padding-left: 25px;
@@ -234,6 +232,7 @@ hr {
   margin-right: 5px;
 }
 .filter p {
+  margin-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
   max-width: fit-content;

@@ -6,11 +6,11 @@ body {
   background-color: #f0f0f0;
 }
 header {
-  background-color: white;
+  background-color: #ffffff;
   width: 100%;
 }
 h1 {
-  color: black;
+  color: #000000;
   text-align: center;
   margin-top: 20px;
 }
@@ -28,7 +28,7 @@ nav {
   align-items: center;
 }
 nav a {
-  color: black;
+  color: #000000;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -44,7 +44,7 @@ h2 {
 
 span {
   display: block;
-  background-color: white;
+  background-color: #ffffff;
   padding: 20px;
   margin: 20px;
 }
@@ -68,8 +68,8 @@ li {
 }
 
 footer {
-  background-color: hsl(229, 38%, 40%);
-  color: white;
+  background-color: #3f4d8d;
+  color: #ffffff;
   text-align: center;
   padding: 10px;
 }

@@ -23,7 +23,7 @@ main {
 
 .boxintro {
   width: 70%;
-  height: 150px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: end;

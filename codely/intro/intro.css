@@ -4,8 +4,8 @@
 
 .intro {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 h1 {

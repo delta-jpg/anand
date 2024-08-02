@@ -234,6 +234,9 @@
     visibility: hidden;
     width: 0;
   }
+  .submit:hover {
+    cursor: pointer;
+  }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   * {

@@ -57,3 +57,20 @@ hr {
 .cuatro {
   color: #ff764d;
 }
+.three {
+  position: relative;
+}
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.eins {
+  position: absolute;
+  font-size: 125px;
+  color: #ff764d;
+  left: 35%;
+  right: 35%;
+  top: 300px;
+}

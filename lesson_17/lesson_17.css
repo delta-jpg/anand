@@ -60,6 +60,7 @@ hr {
 .three {
   position: relative;
 }
+<<<<<<< HEAD
 .photo-one {
   display: block;
   margin-left: auto;
@@ -362,4 +363,19 @@ hr {
 svg {
   margin-left: 5px;
   margin-right: 5px;
+=======
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.eins {
+  position: absolute;
+  font-size: 125px;
+  color: #ff764d;
+  left: 35%;
+  right: 35%;
+  top: 300px;
+>>>>>>> 895bb8f389ba3fae5ed368294cfba83b5ddf1fd5
 }

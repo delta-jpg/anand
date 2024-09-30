@@ -20,6 +20,3 @@ const students = [
   { name: "Sophia", point: 75 },
   { name: "Tyler", point: 46 },
 ];
-if (students.point >= 90) {
-  console.log(a);
-}

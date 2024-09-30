@@ -1,0 +1,13 @@
+let bornyear = 2007;
+let bornmonth = 1;
+let bornday = 1;
+let thisyear = 2024;
+let thismonth = 1;
+let thisday = 1;
+let daysinyear = 365;
+let daysinmonth = 30;
+let totaldays = (thisyear - bornyear) * daysinyear;
+let daysfromstartofthisyear = (thismonth - 1) * daysinmonth + thisday;
+let daysfromstartofbornyear = (bornmonth - 1) * daysinmonth + bornday;
+totaldays = totaldays + daysfromstartofthisyear - daysfromstartofbornyear;
+console.log(totaldays);
